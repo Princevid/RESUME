@@ -1,0 +1,59 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{geometry}
+\geometry{margin=1cm}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\begin{document}
+\begin{center}
+    {\LARGE \textbf{PRINCE KUMAR}} \\[4pt]
+    \href{princevdy28@gmail.com}{princevdy28@gmail.com} \\
+    GitHub: \href{https://github.com/Princevid}{Princevid} \quad
+    LinkedIn: \href{https://www.linkedin.com/in/prince-kumar-098045276/}{prince kumar}
+\end{center}
+%------------------------------------------
+\section*{Technical Skills}
+\textbf{Programming Languages:} Python, SQL \\
+\textbf{Data Analysis:} Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, Statistical Analysis \\
+\textbf{Machine Learning:} Linear Regression, Ridge Regression, Random Forest \\
+\textbf{Databases:} MySQL \\
+\textbf{Libraries \& Tools:} Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Git, GitHub \\
+\textbf{Visualization:} Charts, Dashboards, Trend Analysis
+%------------------------------------------
+\section*{Projects}
+\textbf{House Price Prediction | Data Analytics Project} \\
+\textit{Python, Pandas, NumPy, Scikit-learn}
+\begin{itemize}[leftmargin=1em]
+    \item Analyzed real estate dataset containing housing attributes such as location, area, number of rooms, and pricing.
+    \item Performed data preprocessing including missing value treatment, outlier detection, and normalization.
+    \item Conducted exploratory data analysis (EDA) to identify trends, correlations, and key price drivers.
+    \item Built and evaluated regression models to predict house prices, achieving strong R² and low RMSE.
+    \item Visualized insights using Matplotlib and Seaborn to communicate findings effectively.
+\end{itemize}
+
+\textbf{End-to-End Banking KPI Dashboard (Executive View) | Power BI Project} \\
+\textit{Power BI, SQL, DAX, Excel}
+\begin{itemize}[leftmargin=1em]
+    \item Developed an executive-level Power BI dashboard to monitor key banking KPIs including total deposits, loan disbursements, NPAs, revenue, and profitability.
+    \item Extracted and transformed banking data using SQL and Power Query, ensuring data accuracy and consistency.
+    \item Created DAX measures for KPIs such as YoY growth, loan-to-deposit ratio, NPA percentage, and branch performance metrics.
+    \item Implemented interactive slicers, drill-downs, and filters to enable region-wise, branch-wise, and product-wise analysis.
+    \item Provided actionable insights to support strategic decision-making by identifying high-performing branches, risk areas, and growth opportunities.
+\end{itemize}
+%------------------------------------------
+\section*{Education}
+\textbf{JHARKHAND RAKSHA SHAKTI UNIVERSITY} \hfill \textit{BCA | 8.50 SGPA} \\
+Computer Science \& Cyber Security \hfill (2022 -- 2025)
+\\
+\textbf{JHARKHAND RAKSHA SHAKTI UNIVERSITY}  \hfill DPS  | 75.21\% \\
+{DIPLOMA IN POLICE SCIENCE } \hfill(2021 -- 2022)
+
+\textbf{I U M INTER COLLEGE PATAN} \hfill \textit{Intermediate Science | 70\%} \\
+(2021-- 2022)
+
+\textbf{SACRED HEART  SCHOOL} \hfill \textit{Matric | 71.2\%} \\
+(2019)
+%------------------------------------------
+\section*{Certifications \& Achievements}
+HTML \& CSS, SQL, EXCEL,POWER BI , TABLEAU, PROBLEM SOLVING , COMMUNICATION,PYTHON FOR DATA ANALYSIS\\
+\end{document}
