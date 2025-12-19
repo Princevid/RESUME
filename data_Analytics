@@ -1,59 +1,90 @@
 \documentclass[a4paper,11pt]{article}
+
+%-------------------- Packages --------------------
 \usepackage{geometry}
-\geometry{margin=1cm}
+\geometry{margin=1.2cm}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+%-------------------- Formatting --------------------
 \setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=2pt}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+%-------------------- Document --------------------
 \begin{document}
+
+%-------------------- Header --------------------
 \begin{center}
-    {\LARGE \textbf{PRINCE KUMAR}} \\[4pt]
-    \href{princevdy28@gmail.com}{princevdy28@gmail.com} \\
-    GitHub: \href{https://github.com/Princevid}{Princevid} \quad
-    LinkedIn: \href{https://www.linkedin.com/in/prince-kumar-098045276/}{prince kumar}
+    {\LARGE \textbf{PRINCE KUMAR}} \\[6pt]
+    \href{mailto:princevdy28@gmail.com}{princevdy28@gmail.com} \quad | \quad
+    GitHub: \href{https://github.com/Princevid}{github.com/Princevid} \quad | \quad
+    LinkedIn: \href{https://www.linkedin.com/in/prince-kumar-098045276/}{linkedin.com/in/prince-kumar}
 \end{center}
-%------------------------------------------
+
+%-------------------- Summary --------------------
+\section*{Professional Summary}
+Data Analytics graduate with strong expertise in Python, SQL, and data visualization. Experienced in exploratory data analysis, data cleaning, and predictive modeling. Adept at transforming raw data into actionable insights to support data-driven decision-making.
+
+%-------------------- Skills --------------------
 \section*{Technical Skills}
 \textbf{Programming Languages:} Python, SQL \\
 \textbf{Data Analysis:} Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, Statistical Analysis \\
 \textbf{Machine Learning:} Linear Regression, Ridge Regression, Random Forest \\
 \textbf{Databases:} MySQL \\
 \textbf{Libraries \& Tools:} Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Git, GitHub \\
-\textbf{Visualization:} Charts, Dashboards, Trend Analysis
-%------------------------------------------
+\textbf{Data Visualization:} Charts, Dashboards, Trend Analysis
+
+%-------------------- Projects --------------------
 \section*{Projects}
+
 \textbf{House Price Prediction | Data Analytics Project} \\
 \textit{Python, Pandas, NumPy, Scikit-learn}
-\begin{itemize}[leftmargin=1em]
-    \item Analyzed real estate dataset containing housing attributes such as location, area, number of rooms, and pricing.
+\begin{itemize}
+    \item Analyzed real estate datasets containing housing attributes such as location, area, number of rooms, and price.
     \item Performed data preprocessing including missing value treatment, outlier detection, and normalization.
     \item Conducted exploratory data analysis (EDA) to identify trends, correlations, and key price drivers.
-    \item Built and evaluated regression models to predict house prices, achieving strong R² and low RMSE.
-    \item Visualized insights using Matplotlib and Seaborn to communicate findings effectively.
+    \item Built and evaluated regression models achieving strong R\textsuperscript{2} scores and low RMSE.
+    \item Visualized insights using Matplotlib and Seaborn for effective communication.
 \end{itemize}
 
 \textbf{End-to-End Banking KPI Dashboard (Executive View) | Power BI Project} \\
 \textit{Power BI, SQL, DAX, Excel}
-\begin{itemize}[leftmargin=1em]
-    \item Developed an executive-level Power BI dashboard to monitor key banking KPIs including total deposits, loan disbursements, NPAs, revenue, and profitability.
-    \item Extracted and transformed banking data using SQL and Power Query, ensuring data accuracy and consistency.
-    \item Created DAX measures for KPIs such as YoY growth, loan-to-deposit ratio, NPA percentage, and branch performance metrics.
-    \item Implemented interactive slicers, drill-downs, and filters to enable region-wise, branch-wise, and product-wise analysis.
-    \item Provided actionable insights to support strategic decision-making by identifying high-performing branches, risk areas, and growth opportunities.
+\begin{itemize}
+    \item Designed an executive-level Power BI dashboard to track key banking KPIs including deposits, loans, NPAs, revenue, and profitability.
+    \item Extracted and transformed data using SQL and Power Query to ensure accuracy and consistency.
+    \item Developed DAX measures for YoY growth, loan-to-deposit ratio, NPA percentage, and branch performance.
+    \item Implemented interactive slicers, drill-downs, and filters for region-wise and branch-wise analysis.
+    \item Delivered actionable insights by identifying high-performing branches, risk areas, and growth opportunities.
 \end{itemize}
-%------------------------------------------
+
+%-------------------- Education --------------------
 \section*{Education}
-\textbf{JHARKHAND RAKSHA SHAKTI UNIVERSITY} \hfill \textit{BCA | 8.50 SGPA} \\
+
+\textbf{Jharkhand Raksha Shakti University} \hfill \textit{BCA | SGPA: 8.50} \\
 Computer Science \& Cyber Security \hfill (2022 -- 2025)
-\\
-\textbf{JHARKHAND RAKSHA SHAKTI UNIVERSITY}  \hfill DPS  | 75.21\% \\
-{DIPLOMA IN POLICE SCIENCE } \hfill(2021 -- 2022)
 
-\textbf{I U M INTER COLLEGE PATAN} \hfill \textit{Intermediate Science | 70\%} \\
-(2021-- 2022)
+\vspace{2pt}
+\textbf{Jharkhand Raksha Shakti University} \hfill \textit{Diploma in Police Science | 75.21\%} \\
+(2021 -- 2022)
 
-\textbf{SACRED HEART  SCHOOL} \hfill \textit{Matric | 71.2\%} \\
+\vspace{2pt}
+\textbf{I U M Inter College, Patan} \hfill \textit{Intermediate Science | 70\%} \\
+(2021 -- 2022)
+
+\vspace{2pt}
+\textbf{Sacred Heart School} \hfill \textit{Matric | 71.2\%} \\
 (2019)
-%------------------------------------------
-\section*{Certifications \& Achievements}
-HTML \& CSS, SQL, EXCEL,POWER BI , TABLEAU, PROBLEM SOLVING , COMMUNICATION,PYTHON FOR DATA ANALYSIS\\
+
+%-------------------- Certifications --------------------
+\section*{Certifications \& Skills}
+HTML \& CSS, SQL, Excel, Power BI, Tableau, Python for Data Analysis, Problem Solving, Communication
+
 \end{document}
